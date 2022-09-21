@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First WEB project</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="css mobile.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./assets/Moon_apollo12.jpg" alt="Moon logo">
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#link1">Moon</a></li>
+        <li><a href="#link2">Bonuses</a></li>
+        <li><a href="#3">Tariffs</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Insurance</a></li>
+        <li><a href="#link3">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="lang">
+      <a href="#">EN</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-ctn">
+      <h1>Ceorges Melies dreamed, and we will send.</h1>
+    </div>
+
+<form class="inpt">
+  <div>
+    <label>Departure point</label><br>
+    <input placeholder="Town">
+  </div>
+  <div>
+    <label>Landing point</label><br>
+    <input placeholder="Month">
+  </div><div>
+    <label>There</label><br>
+    <input placeholder="Number">
+  </div><div>
+    <label>Back</label><br>
+    <input placeholder="Number">
+  </div>
+  <div>
+    <button>Buy tickets</button>
+  </div>
+
+</form>
+
+    <div class="about-moon">
+      <div class="info-ctn">
+        <h3>landing place</h3>
+        <h2>Apolo 17 Station</h2>
+
+        <div class="info">
+          <p>
+            The Apollo spacecraft was composed of three parts designed to accomplish the American Apollo program's goal of landing astronauts on the Moon by the end of the 1960s and returning them safely to Earth. The expendable (single-use) spacecraft consisted of a combined command and service module (CSM) and an Apollo Lunar Module (LM). Two additional components complemented the spacecraft stack for space vehicle assembly: a spacecraft–LM adapter (SLA) designed to shield the LM from the aerodynamic stress of launch and to connect the CSM to the Saturn launch vehicle and a launch escape system (LES) to carry the crew in the command module safely away from the launch vehicle in the event of a launch emergency.
+          </p>
+          <button class="buy">buy</button>
+        </div>
+      </div>
+      <div class="apolo-ctn">
+        <img src="./assets/apolo.jpg" alt="Moon">
+      </div>
+    </div>
+    <div class="fqa">
+      <h2 id="link1">Why should<br> fly to moon?</h2>
+      <div class="answers-ctn">
+        <span>Become the hero of the film</span>
+        <span>Spend a honeymoon</span>
+        <span>Make sure the Earth is round </span>
+        <span>Since childhood, he dreamed of space</span>
+        <span>Get Helium 3</span>
+        <span id="link2">Find answers to eternal questions</span>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img src="./assets/Ufo.webp" alt="rocket spacesex" id="img1">
+        <h2>UFO on the moon</h2>
+        <p>
+          Excursion to an abandoned spacecraft of extraterrestrial orogin.</p>
+        <button>More</button>
+      </div>
+      <div class="card">
+        <img src="./assets/space.jpg" alt="rocket spacesex" id="img2">
+        <h2>discounts</h2>
+        <p>
+          In the period from December to March, there are discounts on flights between Apollo stations.<br><br>
+        </p>
+        <button>More</button>
+      </div>
+      <div class="card">
+        <img src="./assets/satellite.jpg" alt="rocket spacesex" id="img3">
+        <h2>New museum</h2>
+        <p>
+          Finally, the new Apollo 11 museum has opened - the place where man first stepped on the surface of the moon!<br><br>
+        </p>
+        <button>More</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <h2 id="link3">Moon travel</h2>
+    <p>2022-2040 Moon travel</p>
+  </footer>
+
+</body>
+
+</html>
