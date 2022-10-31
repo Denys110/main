@@ -1,0 +1,13 @@
+.enter{
+  position: sticky;
+  top: -20px;
+  margin: auto 30px 100px;
+  display:block;
+  padding: 10px 50px; 
+  background-color: #626262;
+  width: 13%;
+  border-radius: 10px;
+  color: #1a1a1a;
+  margin: auto 15px;
+  margin-top: 20%;
+}
