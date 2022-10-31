@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="css2.css">
+<div class="enter">
+    <form action="/action_page.php" id="form2">
+      <label for="fname">Імя користувача:</label><br>
+      <input type="text" id="fname" name="fname"minlength="3" maxlength="25" size="3" required><br>
+      <label for="email">Електронна адреса:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="1password">Пароль:</label><br>
+      <input type="password" id="1password" name="1password"minlength="8" maxlength="25"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" required><br>
+      <label for="2password">Підтвердіть пароль:</label><br>
+      <input type="password" id="2password" name="2password"minlength="8" maxlength="25" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}"required><br>
+      <button id="sign" >Реєстрація</button>
+    </form>
+  </div>
+  </main>
